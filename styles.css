@@ -1,0 +1,146 @@
+html{
+	background-image: repeating-linear-gradient(90deg, #770071, #5e0059, #770071, #5e0059, #770071, #5e0059, #770071, #5e0059, #770071, #5e0059);
+}
+
+body{
+	background-color:black;
+	color:white;
+	font-weight: normal;
+}
+
+h2{
+	font-family: verdana;
+	font-size: 15px;
+	color: #c9c7c6;
+}
+
+h3{
+	font-family: verdana;
+	font-size: 14px;
+	color: #c9c7c6;
+}
+
+ul{
+	list-style: none;
+}
+
+ol{
+	list-style: disc;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+@media screen and (min-width: 612px) {/*----------------------------------------------------------------------------------------------------------*/
+
+
+h1{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 250%;
+}
+
+
+
+ol li:hover{
+	list-style-image: url(pictures_used/listicon.png);
+}
+
+
+
+
+.list1 p, .list2 p, .list3 p, .list4 p, .list5 p{
+	font-family: verdana;
+	font-size: 15px;
+	color: #c9c7c6;
+}
+
+
+.list1:hover, .list2:hover, .list3:hover, .list4:hover, .list5:hover{
+	text-decoration: none;
+	text-shadow: -4px 4px purple;
+}
+
+
+.indexcontainer, .navcontainer, .cell2{
+	background-image: linear-gradient(#000000, #5e0059);
+}
+
+
+
+
+
+
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* Not Desktop
+*****************************************************/
+@media only screen and (max-width: 610px){ 
+
+
+h1 {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.list1 p:after{
+	content: 'MK1';
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #c9c7c6;
+	padding: 0 5px;
+}
+
+.list2 p:after{
+	content: 'MK2';
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #c9c7c6;
+	padding: 0 5px;
+}
+
+.list3 p:after{
+	content: 'MK3';
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #c9c7c6;
+	padding: 0 5px;
+}
+
+.list4 p:after{
+	content: 'feedback';
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #c9c7c6;
+	padding: 0 5px;
+}
+
+
+		
+.indexcontainer, .navcontainer, .cell2{
+	background-image: linear-gradient(#000000, #5e0059);
+}
+		
+
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
